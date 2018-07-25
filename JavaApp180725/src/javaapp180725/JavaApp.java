@@ -11,11 +11,11 @@ public class JavaApp {
     }
     public void printthis(int x, int y){
         x=x;y=y;
-        System.out.println(""+x+y);
+        System.out.println(""+this.x+this.y);
     }
     public void printthat(int x, int y){
         this.x=x;this.y=y;
-        System.out.println(""+x+y);
-    }
+        System.out.println(""+this.x+this.y);
+    }//
     
 }
