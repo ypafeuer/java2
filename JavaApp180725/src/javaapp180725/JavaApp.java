@@ -1,21 +1,12 @@
 
 package javaapp180725;
-
+import javaapp180725.pp.*;
 public class JavaApp {
-
     public static void main(String[] args) {
-String[] t={"a","b","c"};
-int ii=0;
-for(String aString:t){
-    while(ii<t.length){
-            System.out.println(ii);
-            ii++;
-            break;
-    }
-}
+        //javaapp180725.pp.MyNumber  aa =new javaapp180725.pp.MyNumber();
+        javaapp180725.pp.www aa =new javaapp180725.pp.www();
+        aa.x=11;
+        System.out.println(aa.x);
         
-        }
-
-
-    
+    }
 }
