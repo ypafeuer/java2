@@ -22,10 +22,10 @@ public static void main(String[] args) {
         }
         Collections.sort(list,null);
                 System.out.println(list);
-        System.out.println(Collections.binarySearch(list, 3));
+        System.out.println(Collections.binarySearch(list, 3));//回傳key位置
         Collections.sort(list,IntegerComparator);
                 System.out.println(list);
-        System.out.println(Collections.binarySearch(list, 3));
+        System.out.println(Collections.binarySearch(list, 3));//回傳key位置
     }
             
  	
